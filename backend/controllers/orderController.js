@@ -9,7 +9,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
  const placeOlder = async(req,res)=>{
 
-    const frontend_url = "http://localhost:5174"
+    const frontend_url = "https://food-delivery-app-flax-gamma.vercel.app/"
 
   try {
     const newOrder = orderModel({
