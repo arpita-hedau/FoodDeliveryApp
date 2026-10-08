@@ -13,7 +13,10 @@ const port = process.env.PORT || 4000
 
 //middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: "https://food-delivery-app-flax-gamma.vercel.app",
+    credentials: true
+}))
 
 //db connection
 connectDB()
