@@ -1,0 +1,19 @@
+.go-to-cart {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 30px;
+    background: tomato;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.go-to-cart:hover {
+    transform: scale(1.05);
+}
